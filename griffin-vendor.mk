@@ -571,7 +571,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
-    vendor/motorola/griffin/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -953,7 +952,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
-    vendor/motorola/griffin/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libmmhttpstack.so:system/vendor/lib64/libmmhttpstack.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libmmi.so:system/vendor/lib64/libmmi.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libmmiipstreammmihttp.so:system/vendor/lib64/libmmiipstreammmihttp.so \
@@ -1079,6 +1077,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/mmi_wifi.so:system/vendor/lib64/mmi_wifi.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/libqseed3.so:system/vendor/lib64/libqseed3.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/libqseed3.so:system/vendor/lib/libqseed3.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/libtinyxml2_1.so:system/vendor/lib64/libtinyxml2_1.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/libtinyxml2_1.so:system/vendor/lib/libtinyxml2_1.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/libhdr_tm.so:system/vendor/lib64/libhdr_tm.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/libhdr_tm.so:system/vendor/lib/libhdr_tm.so \
     vendor/motorola/griffin/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PROPERTY_OVERRIDES += \
