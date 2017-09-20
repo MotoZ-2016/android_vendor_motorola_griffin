@@ -17,7 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/griffin/proprietary/bin/adspd:system/bin/adspd \
-    vendor/motorola/griffin/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/motorola/griffin/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/motorola/griffin/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/griffin/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/griffin/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
@@ -262,6 +262,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/soundfx/libreverbwrapper.so:system/vendor/lib/soundfx/libreverbwrapper.so \
     vendor/motorola/griffin/proprietary/vendor/lib/soundfx/libvisualizer.so:system/vendor/lib/soundfx/libvisualizer.so \
     vendor/motorola/griffin/proprietary/vendor/lib/soundfx/libvolumelistener.so:system/vendor/lib/soundfx/libvolumelistener.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/motorola/griffin/proprietary/lib64/fm_helium.so:system/lib64/fm_helium.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/hw/fingerprint.vendor.msm8996.so:system/vendor/lib64/hw/fingerprint.vendor.msm8996.so \
     vendor/motorola/griffin/proprietary/lib64/hw/sensorhub.msm8996.so:system/lib64/hw/sensorhub.msm8996.so \
@@ -310,6 +313,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/soundfx/libreverbwrapper.so:system/vendor/lib64/soundfx/libreverbwrapper.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/soundfx/libvisualizer.so:system/vendor/lib64/soundfx/libvisualizer.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/soundfx/libvolumelistener.so:system/vendor/lib64/soundfx/libvolumelistener.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/motorola/griffin/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/motorola/griffin/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/motorola/griffin/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -1094,6 +1100,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
     vendor/motorola/griffin/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PROPERTY_OVERRIDES += \
