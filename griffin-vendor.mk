@@ -72,16 +72,19 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/etc/camera/mot_imx214_chromatix.xml:system/etc/camera/mot_imx214_chromatix.xml \
     vendor/motorola/griffin/proprietary/etc/camera/msm8996_mot_camera.xml:system/etc/camera/msm8996_mot_camera.xml \
     vendor/motorola/griffin/proprietary/etc/camera/ov5693_chromatix.xml:system/etc/camera/ov5693_chromatix.xml \
-    vendor/motorola/griffin/proprietary/vendor/etc/cne/SwimConfig.xml:system/vendor/etc/cne/SwimConfig.xml \
-    vendor/motorola/griffin/proprietary/vendor/etc/cne/andsfCne.xml:system/vendor/etc/cne/andsfCne.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml \
+    vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile5.xml \
+    vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile6.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml \
+    vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml \
+    vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile6.xml \
+    vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile7.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile1.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile1.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile2.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile2.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml \
