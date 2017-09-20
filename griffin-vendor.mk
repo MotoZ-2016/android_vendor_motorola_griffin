@@ -1085,6 +1085,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/motorola/griffin/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
+
     vendor/motorola/griffin/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PROPERTY_OVERRIDES += \
