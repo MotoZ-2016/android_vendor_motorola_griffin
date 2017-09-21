@@ -338,8 +338,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/motorola/griffin/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/motorola/griffin/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
-    vendor/motorola/griffin/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:system/vendor/lib/hw/gatekeeper.msm8996.so \
-    vendor/motorola/griffin/proprietary/vendor/lib/hw/keystore.msm8996.so:system/vendor/lib/hw/keystore.msm8996.so \
     vendor/motorola/griffin/proprietary/vendor/lib/hw/vulkan.msm8996.so:system/vendor/lib/hw/vulkan.msm8996.so \
     vendor/motorola/griffin/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/motorola/griffin/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
@@ -827,8 +825,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
-    vendor/motorola/griffin/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:system/vendor/lib64/hw/gatekeeper.msm8996.so \
-    vendor/motorola/griffin/proprietary/vendor/lib64/hw/keystore.msm8996.so:system/vendor/lib64/hw/keystore.msm8996.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/hw/vulkan.msm8996.so:system/vendor/lib64/hw/vulkan.msm8996.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
@@ -1121,6 +1117,8 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.constants@2.0 \
     com.quicinc.cne.server@1.0 \
     com.quicinc.cne.server@2.0 \
+    gatekeeper.msm8996 \
+    keystore.msm8996 \
     libsdm-disp-vndapis \
     libthermalclient \
     libtime_genoff \
