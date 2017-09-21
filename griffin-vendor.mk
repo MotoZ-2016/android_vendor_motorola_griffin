@@ -1087,10 +1087,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/libhdr_tm.so:system/vendor/lib/libhdr_tm.so \
     vendor/motorola/griffin/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/vendor/bin/hw/vendor.display.color@1.0-service \
     vendor/motorola/griffin/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:system/vendor/etc/init/vendor.display.color@1.0-service.rc \
-    vendor/motorola/griffin/proprietary/vendor/lib/vendor.display.color@1.0.so:system/vendor/lib/vendor.display.color@1.0.so \
-    vendor/motorola/griffin/proprietary/vendor/lib/vendor.display.postproc@1.0.so:system/vendor/lib/vendor.display.postproc@1.0.so \
-    vendor/motorola/griffin/proprietary/vendor/lib64/vendor.display.color@1.0.so:system/vendor/lib64/vendor.display.color@1.0.so \
-    vendor/motorola/griffin/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:system/vendor/lib64/vendor.display.postproc@1.0.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/vendor.display.color@1.0_vendor.so:system/vendor/lib/vendor.display.color@1.0_vendor.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/vendor.display.postproc@1.0_vendor.so:system/vendor/lib/vendor.display.postproc@1.0_vendor.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:system/vendor/lib64/vendor.display.color@1.0_vendor.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:system/vendor/lib64/vendor.display.postproc@1.0_vendor.so \
     vendor/motorola/griffin/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/motorola/griffin/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
@@ -1101,6 +1101,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
+    vendor/motorola/griffin/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
+    vendor/motorola/griffin/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
+    vendor/motorola/griffin/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
+    vendor/motorola/griffin/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/motorola/griffin/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PROPERTY_OVERRIDES += \
