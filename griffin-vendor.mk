@@ -1104,6 +1104,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
     vendor/motorola/griffin/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/motorola/griffin/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib/vendor.qti.gnss@1.0_vendor.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/libqtigef.so:system/vendor/lib/libqtigef.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/libqtigef.so:system/vendor/lib64/libqtigef.so \
     vendor/motorola/griffin/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -1119,6 +1121,7 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.server@2.0 \
     gatekeeper.msm8996 \
     keystore.msm8996 \
+    libaudio_log_utils \
     libsdm-disp-vndapis \
     libthermalclient \
     libtime_genoff \
