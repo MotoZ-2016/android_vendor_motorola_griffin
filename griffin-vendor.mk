@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/motorola/griffin/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/motorola/griffin/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/motorola/griffin/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/motorola/griffin/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/motorola/griffin/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/motorola/griffin/proprietary/etc/acdbdata/griffin/Bluetooth_cal.acdb:system/etc/acdbdata/griffin/Bluetooth_cal.acdb \
     vendor/motorola/griffin/proprietary/etc/acdbdata/griffin/General_cal.acdb:system/etc/acdbdata/griffin/General_cal.acdb \
