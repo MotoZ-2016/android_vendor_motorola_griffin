@@ -39,7 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/bin/vendor/pm-service:system/bin/vendor/pm-service \
     vendor/motorola/griffin/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/motorola/griffin/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
-    vendor/motorola/griffin/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/motorola/griffin/proprietary/bin/vendor/qseecomd:system/bin/vendor/qseecomd \
     vendor/motorola/griffin/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/motorola/griffin/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/motorola/griffin/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
@@ -304,7 +304,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/motorola/griffin/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/motorola/griffin/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/motorola/griffin/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/motorola/griffin/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/motorola/griffin/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/motorola/griffin/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
@@ -1117,6 +1116,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/libvpplibrary.so:system/vendor/lib/libvpplibrary.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libOmxVpp.so:system/vendor/lib/libOmxVpp.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libOmxAmrDec.so:system/vendor/lib/libOmxAmrDec.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/motorola/griffin/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
 
 PRODUCT_PROPERTY_OVERRIDES += \
