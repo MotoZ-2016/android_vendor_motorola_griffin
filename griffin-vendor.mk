@@ -35,8 +35,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/bin/mods_camd:system/bin/mods_camd \
     vendor/motorola/griffin/proprietary/bin/motosh:system/bin/motosh \
     vendor/motorola/griffin/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/motorola/griffin/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/motorola/griffin/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/motorola/griffin/proprietary/bin/vendor/pm-proxy:system/bin/vendor/pm-proxy \
+    vendor/motorola/griffin/proprietary/bin/vendor/pm-service:system/bin/vendor/pm-service \
     vendor/motorola/griffin/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/motorola/griffin/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/motorola/griffin/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -1141,7 +1141,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     MotCameraMod \
     TimeService \
-    datastatusnotification \
     ConnMO \
     DCMO \
     DMService \
