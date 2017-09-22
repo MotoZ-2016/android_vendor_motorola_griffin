@@ -187,7 +187,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/lib/libAlAisLib.so:system/lib/libAlAisLib.so \
     vendor/motorola/griffin/proprietary/lib/libAlAisTune.so:system/lib/libAlAisTune.so \
     vendor/motorola/griffin/proprietary/lib/libAlAisWrap.so:system/lib/libAlAisWrap.so \
-    vendor/motorola/griffin/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/motorola/griffin/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/griffin/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
     vendor/motorola/griffin/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
@@ -237,7 +236,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libHu.so:system/vendor/lib/libHu.so \
     vendor/motorola/griffin/proprietary/lib/libunshorten.so:system/lib/libunshorten.so \
-    vendor/motorola/griffin/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/motorola/griffin/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
     vendor/motorola/griffin/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
     vendor/motorola/griffin/proprietary/lib/libzxingcpp.so:system/lib/libzxingcpp.so \
@@ -262,7 +260,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/lib64/sensors.moto.so:system/lib64/sensors.moto.so \
     vendor/motorola/griffin/proprietary/lib64/hw/thermal.msm8996.so:system/lib64/hw/thermal.msm8996.so \
     vendor/motorola/griffin/proprietary/lib64/hw/vr.msm8996.so:system/lib64/hw/vr.msm8996.so \
-    vendor/motorola/griffin/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/motorola/griffin/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/motorola/griffin/proprietary/lib64/libadropbox.so:system/lib64/libadropbox.so \
     vendor/motorola/griffin/proprietary/lib64/libadspd.so:system/lib64/libadspd.so \
@@ -289,7 +286,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/lib64/libtpa.so:system/lib64/libtpa.so \
     vendor/motorola/griffin/proprietary/lib64/libtpa_core.so:system/lib64/libtpa_core.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libHu.so:system/vendor/lib64/libHu.so \
-    vendor/motorola/griffin/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/motorola/griffin/proprietary/lib64/libwifi-hal-qcom.so:system/lib64/libwifi-hal-qcom.so \
     vendor/motorola/griffin/proprietary/lib64/libwpa_client.so:system/lib64/libwpa_client.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:system/vendor/lib64/soundfx/libaudiopreprocessing.so \
@@ -656,7 +652,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/motorola/griffin/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libmmparser_lite.so:system/vendor/lib/libmmparser_lite.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
@@ -934,7 +929,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/libmmipstreamnetwork.so:system/vendor/lib64/libmmipstreamnetwork.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libmmipstreamsourcehttp.so:system/vendor/lib64/libmmipstreamsourcehttp.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libmmipstreamutils.so:system/vendor/lib64/libmmipstreamutils.so \
-    vendor/motorola/griffin/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libmmparser.so:system/vendor/lib64/libmmparser.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libmmparser_lite.so:system/vendor/lib64/libmmparser_lite.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libmmrtpdecoder.so:system/vendor/lib64/libmmrtpdecoder.so \
@@ -1121,6 +1115,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/motorola/griffin/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
+    vendor/motorola/griffin/proprietary/vendor/lib64/libvpplibrary.so:system/vendor/lib64/libvpplibrary.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/libOmxVpp.so:system/vendor/lib64/libOmxVpp.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/libOmxAmrDec.so:system/vendor/lib64/libOmxAmrDec.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/libvpplibrary.so:system/vendor/lib/libvpplibrary.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/libOmxVpp.so:system/vendor/lib/libOmxVpp.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/libOmxAmrDec.so:system/vendor/lib/libOmxAmrDec.so \
     vendor/motorola/griffin/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
 
 PRODUCT_PROPERTY_OVERRIDES += \
