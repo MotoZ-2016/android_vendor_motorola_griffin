@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/bin/ftmipcd:system/bin/ftmipcd \
     vendor/motorola/griffin/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/griffin/proprietary/bin/iop:system/bin/iop \
-    vendor/motorola/griffin/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/motorola/griffin/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/motorola/griffin/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/motorola/griffin/proprietary/bin/mdm_helper:system/bin/mdm_helper \
     vendor/motorola/griffin/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
