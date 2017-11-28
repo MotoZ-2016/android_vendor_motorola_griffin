@@ -160,7 +160,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/motorola/griffin/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/griffin/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/motorola/griffin/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/motorola/griffin/proprietary/etc/thermal-engine-griffin.conf:system/etc/thermal-engine-griffin.conf \
     vendor/motorola/griffin/proprietary/etc/thermal-engine-sheridan-retcn.conf:system/etc/thermal-engine-sheridan-retcn.conf \
     vendor/motorola/griffin/proprietary/etc/thermal-engine-sheridan.conf:system/etc/thermal-engine-sheridan.conf \
