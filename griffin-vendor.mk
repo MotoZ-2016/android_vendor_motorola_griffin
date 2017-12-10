@@ -719,7 +719,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/libscveTextReco.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveTextReco.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveTextRecoPostProcessing.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libscveTextReco_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveTextReco_stub.so \
-    vendor/motorola/griffin/proprietary/vendor/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsd_sdk_display.so \
+    vendor/motorola/griffin/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-color.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-diag.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmextension.so \
@@ -982,7 +982,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/libscveTextReco.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveTextReco.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libscveTextRecoPostProcessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveTextRecoPostProcessing.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libscveTextReco_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveTextReco_stub.so \
-    vendor/motorola/griffin/proprietary/vendor/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsd_sdk_display.so \
+    vendor/motorola/griffin/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-color.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-diag.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmextension.so \
@@ -1119,7 +1119,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui.so \
     vendor/motorola/griffin/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/motorola/griffin/proprietary/lib64/libparam.so:system/lib64/libparam.so \
-    vendor/motorola/griffin/proprietary/vendor/framework/com.qti.snapdragon.sdk.display.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/motorola/griffin/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -1136,6 +1135,7 @@ PRODUCT_PACKAGES += \
     gatekeeper.msm8996 \
     keystore.msm8996 \
     libaudio_log_utils \
+    libsdm-disp-apis \
     libsdm-disp-vndapis \
     libthermalclient \
     libtime_genoff \
