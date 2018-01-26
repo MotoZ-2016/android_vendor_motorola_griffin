@@ -129,6 +129,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/motorola/griffin/proprietary/lib/libjscore.so:system/lib/libjscore.so \
     vendor/motorola/griffin/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
+    vendor/motorola/griffin/proprietary/lib/liblocationservice_jni.so:system/lib/liblocationservice_jni.so \
     vendor/motorola/griffin/proprietary/lib/libmbs.so:system/lib/libmbs.so \
     vendor/motorola/griffin/proprietary/lib/libmodmanager_system.so:system/lib/libmodmanager_system.so \
     vendor/motorola/griffin/proprietary/lib/libmorpho_image_stabilizer4.so:system/lib/libmorpho_image_stabilizer4.so \
@@ -181,6 +182,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/lib64/libiio.so:system/lib64/libiio.so \
     vendor/motorola/griffin/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/motorola/griffin/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
+    vendor/motorola/griffin/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/motorola/griffin/proprietary/lib64/libmodhw.so:system/lib64/libmodhw.so \
     vendor/motorola/griffin/proprietary/lib64/libmodmanager_system.so:system/lib64/libmodmanager_system.so \
     vendor/motorola/griffin/proprietary/lib64/libmotocare.so:system/lib64/libmotocare.so \
