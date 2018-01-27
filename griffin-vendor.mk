@@ -88,6 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/etc/thermal-engine-griffin.conf:system/etc/thermal-engine-griffin.conf \
     vendor/motorola/griffin/proprietary/etc/thermal-engine-sheridan-retcn.conf:system/etc/thermal-engine-sheridan-retcn.conf \
     vendor/motorola/griffin/proprietary/etc/thermal-engine-sheridan.conf:system/etc/thermal-engine-sheridan.conf \
+    vendor/motorola/griffin/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/motorola/griffin/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/motorola/griffin/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/motorola/griffin/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
@@ -1047,6 +1048,7 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libloc_api_v02 \
     MotCameraMod \
+    QtiTelephonyService \
     CNEService \
     ConnMO \
     DCMO \
