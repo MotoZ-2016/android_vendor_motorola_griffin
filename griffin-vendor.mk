@@ -142,6 +142,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/lib/libpkip.so:system/lib/libpkip.so \
     vendor/motorola/griffin/proprietary/lib/libprovlib.so:system/lib/libprovlib.so \
     vendor/motorola/griffin/proprietary/lib/libqcomfm_jni.so:system/lib/libqcomfm_jni.so \
+    vendor/motorola/griffin/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/motorola/griffin/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
     vendor/motorola/griffin/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsd_sdk_display.so \
@@ -188,6 +189,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/lib64/libmodmanager_system.so:system/lib64/libmodmanager_system.so \
     vendor/motorola/griffin/proprietary/lib64/libmotocare.so:system/lib64/libmotocare.so \
     vendor/motorola/griffin/proprietary/lib64/libqcomfm_jni.so:system/lib64/libqcomfm_jni.so \
+    vendor/motorola/griffin/proprietary/lib64/libqsap_sdk.so:system/lib64/libqsap_sdk.so \
     vendor/motorola/griffin/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
     vendor/motorola/griffin/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsd_sdk_display.so \
