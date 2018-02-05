@@ -85,6 +85,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/etc/permissions/privapp-permissions-com.quicinc.cne.CNEService.xml:system/etc/permissions/privapp-permissions-com.quicinc.cne.CNEService.xml \
     vendor/motorola/griffin/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/griffin/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/motorola/griffin/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+    vendor/motorola/griffin/proprietary/etc/permissions/uimremoteserver.xml:system/etc/permissions/uimremoteserver.xml \
     vendor/motorola/griffin/proprietary/etc/thermal-engine-griffin.conf:system/etc/thermal-engine-griffin.conf \
     vendor/motorola/griffin/proprietary/etc/thermal-engine-sheridan-retcn.conf:system/etc/thermal-engine-sheridan-retcn.conf \
     vendor/motorola/griffin/proprietary/etc/thermal-engine-sheridan.conf:system/etc/thermal-engine-sheridan.conf \
@@ -475,6 +477,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/libchromatix_ov5693_snapshot_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_snapshot_3a.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcne.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneapiclient.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneoplookup.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneqmiutils.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
@@ -654,6 +657,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/libqti-iopd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libquipc_os_api.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-ltedirectdisc.so \
@@ -858,6 +862,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/libcamerabgproc-jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamerabgproc-jni.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcne.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneoplookup.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneqmiutils.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconfigdb.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
@@ -872,6 +877,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/libevent_observer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libevent_observer.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvadsp_stub.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvopt.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/libfeedbackhandler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeedbackhandler.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflp.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofence.so \
@@ -925,6 +931,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/libqti-iopd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigef.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-ltedirectdisc.so \
@@ -1051,6 +1058,7 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     MotCameraMod \
     QtiTelephonyService \
+    ims \
     CNEService \
     ConnMO \
     DCMO \
@@ -1063,6 +1071,4 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     qcrilmsgtunnel \
     TimeService \
-    ims \
-    imssettings \
     qcrilhook
