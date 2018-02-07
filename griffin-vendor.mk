@@ -106,6 +106,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/motorola/griffin/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
     vendor/motorola/griffin/proprietary/lib/hw/vr.msm8996.so:system/lib/hw/vr.msm8996.so \
+    vendor/motorola/griffin/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
+    vendor/motorola/griffin/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
+    vendor/motorola/griffin/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
+    vendor/motorola/griffin/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
     vendor/motorola/griffin/proprietary/lib/libAlAisLib.so:system/lib/libAlAisLib.so \
     vendor/motorola/griffin/proprietary/lib/libAlAisTune.so:system/lib/libAlAisTune.so \
     vendor/motorola/griffin/proprietary/lib/libAlAisWrap.so:system/lib/libAlAisWrap.so \
@@ -247,6 +251,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
     vendor/motorola/griffin/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
     vendor/motorola/griffin/proprietary/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon \
+    vendor/motorola/griffin/proprietary/vendor/bin/imsrcsd:$(TARGET_COPY_OUT_VENDOR)/bin/imsrcsd \
     vendor/motorola/griffin/proprietary/vendor/bin/ipacm-diag:$(TARGET_COPY_OUT_VENDOR)/bin/ipacm-diag \
     vendor/motorola/griffin/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/motorola/griffin/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
