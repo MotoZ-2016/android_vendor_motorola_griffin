@@ -165,6 +165,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
     vendor/motorola/griffin/proprietary/lib/libwfduibcsink.so:system/lib/libwfduibcsink.so \
     vendor/motorola/griffin/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
+    vendor/motorola/griffin/proprietary/lib/motorola.hardware.audio.common@2.0.so:system/lib/motorola.hardware.audio.common@2.0.so \
+    vendor/motorola/griffin/proprietary/lib/motorola.hardware.audio.eqservice@1.0.so:system/lib/motorola.hardware.audio.eqservice@1.0.so \
+    vendor/motorola/griffin/proprietary/lib/motorola.hardware.audio@2.0.so:system/lib/motorola.hardware.audio@2.0.so \
     vendor/motorola/griffin/proprietary/lib/motorola.hardware.camera.device@1.0.so:system/lib/motorola.hardware.camera.device@1.0.so \
     vendor/motorola/griffin/proprietary/lib/motorola.hardware.camera.provider@2.4.so:system/lib/motorola.hardware.camera.provider@2.4.so \
     vendor/motorola/griffin/proprietary/lib/motorola.hardware.mods_camera.provider@2.4.so:system/lib/motorola.hardware.mods_camera.provider@2.4.so \
@@ -218,6 +221,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/lib64/libwfdmmsink.so:system/lib64/libwfdmmsink.so \
     vendor/motorola/griffin/proprietary/lib64/libwfduibcsink.so:system/lib64/libwfduibcsink.so \
     vendor/motorola/griffin/proprietary/lib64/libwfduibcsinkinterface.so:system/lib64/libwfduibcsinkinterface.so \
+    vendor/motorola/griffin/proprietary/lib64/motorola.hardware.audio.common@2.0.so:system/lib64/motorola.hardware.audio.common@2.0.so \
+    vendor/motorola/griffin/proprietary/lib64/motorola.hardware.audio.eqservice@1.0.so:system/lib64/motorola.hardware.audio.eqservice@1.0.so \
+    vendor/motorola/griffin/proprietary/lib64/motorola.hardware.audio@2.0.so:system/lib64/motorola.hardware.audio@2.0.so \
     vendor/motorola/griffin/proprietary/lib64/motorola.hardware.camera.device@1.0.so:system/lib64/motorola.hardware.camera.device@1.0.so \
     vendor/motorola/griffin/proprietary/lib64/motorola.hardware.camera.provider@2.4.so:system/lib64/motorola.hardware.camera.provider@2.4.so \
     vendor/motorola/griffin/proprietary/lib64/motorola.hardware.mods_camera.provider@2.4.so:system/lib64/motorola.hardware.mods_camera.provider@2.4.so \
@@ -296,6 +302,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/firmware/sensorhubfw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sensorhubfw.bin \
+    vendor/motorola/griffin/proprietary/vendor/etc/init/motorola.hardware.audio@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.audio@2.0-service.rc \
     vendor/motorola/griffin/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
     vendor/motorola/griffin/proprietary/vendor/etc/init/motorola.hardware.mods_camera.provider@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.mods_camera.provider@2.4-service.rc \
     vendor/motorola/griffin/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
@@ -340,6 +347,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/hw/audio.motvr.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.motvr.default.so \
     vendor/motorola/griffin/proprietary/vendor/lib/hw/camera.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8996.so \
     vendor/motorola/griffin/proprietary/vendor/lib/hw/fingerprint.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.msm8996.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/hw/motorola.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/motorola.hardware.audio@2.0-impl.so \
     vendor/motorola/griffin/proprietary/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/motorola.hardware.camera.provider@2.4-impl.so \
     vendor/motorola/griffin/proprietary/vendor/lib/hw/thermal.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.msm8996.so \
     vendor/motorola/griffin/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.gnss@1.0-impl.so \
@@ -650,10 +658,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/libmotext_inf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotext_inf.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libmotocalibration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotocalibration.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
-    vendor/motorola/griffin/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
     vendor/motorola/griffin/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libois_rumba_s4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_rumba_s4.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libomx-dts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libomx-dts.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
@@ -756,6 +764,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/mmi_vibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_vibrator.so \
     vendor/motorola/griffin/proprietary/vendor/lib/mmi_wifi.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_wifi.so \
     vendor/motorola/griffin/proprietary/vendor/lib/motcamera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/motcamera.device@1.0-impl.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/motorola.hardware.audio.common@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.audio.common@2.0_vendor.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/motorola.hardware.audio.eqservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.audio.eqservice@1.0_vendor.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/motorola.hardware.audio@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.audio@2.0_vendor.so \
     vendor/motorola/griffin/proprietary/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.device@1.0_vendor.so \
     vendor/motorola/griffin/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.provider@2.4_vendor.so \
     vendor/motorola/griffin/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libadsp_fd_skel.so \
@@ -816,6 +827,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/hw/fingerprint.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8996.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/hw/motorola.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/motorola.hardware.audio@2.0-impl.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/hw/motorola.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/motorola.hardware.camera.provider@2.4-impl.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/hw/sensorhub.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensorhub.msm8996.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/hw/thermal.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.msm8996.so \
@@ -975,8 +987,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-color.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-diag.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmextension.so \
-    vendor/motorola/griffin/proprietary/vendor/lib64/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libseemore.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui_svcsock.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libseemore.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor1.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_reg.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libsensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorhub.so \
@@ -1027,6 +1039,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/mmi_vibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mmi_vibrator.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/mmi_wifi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mmi_wifi.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/motcamera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motcamera.device@1.0-impl.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/motorola.hardware.audio.common@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.audio.common@2.0_vendor.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/motorola.hardware.audio.eqservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.audio.eqservice@1.0_vendor.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/motorola.hardware.audio@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.audio@2.0_vendor.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/motorola.hardware.camera.device@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.camera.device@1.0_vendor.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/motorola.hardware.camera.provider@2.4_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.camera.provider@2.4_vendor.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensor_calibrate.so \
