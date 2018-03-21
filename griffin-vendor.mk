@@ -29,8 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/etc/acdbdata/sheridan/Hdmi_cal.acdb:system/etc/acdbdata/sheridan/Hdmi_cal.acdb \
     vendor/motorola/griffin/proprietary/etc/acdbdata/sheridan/Headset_cal.acdb:system/etc/acdbdata/sheridan/Headset_cal.acdb \
     vendor/motorola/griffin/proprietary/etc/acdbdata/sheridan/Speaker_cal.acdb:system/etc/acdbdata/sheridan/Speaker_cal.acdb \
-    vendor/motorola/griffin/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
-    vendor/motorola/griffin/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/motorola/griffin/proprietary/etc/camera/imx338_chromatix.xml:system/etc/camera/imx338_chromatix.xml \
     vendor/motorola/griffin/proprietary/etc/camera/mot_imx214_chromatix.xml:system/etc/camera/mot_imx214_chromatix.xml \
     vendor/motorola/griffin/proprietary/etc/camera/msm8996_mot_camera.xml:system/etc/camera/msm8996_mot_camera.xml \
@@ -81,14 +79,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/etc/permissions/privapp-permissions-com.motorola.projectormod.xml:system/etc/permissions/privapp-permissions-com.motorola.projectormod.xml \
     vendor/motorola/griffin/proprietary/etc/permissions/privapp-permissions-com.qualcomm.atfwd.xml:system/etc/permissions/privapp-permissions-com.qualcomm.atfwd.xml \
     vendor/motorola/griffin/proprietary/etc/permissions/privapp-permissions-com.qualcomm.location.xml:system/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
-    vendor/motorola/griffin/proprietary/etc/permissions/privapp-permissions-com.qualcomm.qcrilmsgtunnel.xml:system/etc/permissions/privapp-permissions-com.qualcomm.qcrilmsgtunnel.xml \
-    vendor/motorola/griffin/proprietary/etc/permissions/privapp-permissions-com.quicinc.cne.CNEService.xml:system/etc/permissions/privapp-permissions-com.quicinc.cne.CNEService.xml \
+    vendor/motorola/griffin/proprietary/etc/permissions/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml \
     vendor/motorola/griffin/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/griffin/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/motorola/griffin/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/motorola/griffin/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/motorola/griffin/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/motorola/griffin/proprietary/etc/permissions/uimremoteserver.xml:system/etc/permissions/uimremoteserver.xml \
     vendor/motorola/griffin/proprietary/etc/thermal-engine-griffin.conf:system/etc/thermal-engine-griffin.conf \
     vendor/motorola/griffin/proprietary/etc/thermal-engine-sheridan-retcn.conf:system/etc/thermal-engine-sheridan-retcn.conf \
     vendor/motorola/griffin/proprietary/etc/thermal-engine-sheridan.conf:system/etc/thermal-engine-sheridan.conf \
@@ -241,7 +237,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/bin/fm_qsoc_patches:$(TARGET_COPY_OUT_VENDOR)/bin/fm_qsoc_patches \
     vendor/motorola/griffin/proprietary/vendor/bin/ftmipcd:$(TARGET_COPY_OUT_VENDOR)/bin/ftmipcd \
     vendor/motorola/griffin/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
-    vendor/motorola/griffin/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/motorola/griffin/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.provider@2.4-service \
     vendor/motorola/griffin/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/motorola/griffin/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@1.0-service \
@@ -546,7 +541,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-disp-apis.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
-    vendor/motorola/griffin/proprietary/vendor/lib/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-omxcore.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qdcm.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
@@ -716,8 +710,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsubsystem_control.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsystem_health_mon.so \
-    vendor/motorola/griffin/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
-    vendor/motorola/griffin/proprietary/vendor/lib/libtinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
@@ -726,16 +718,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpphvx.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libvqzip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvqzip.so \
-    vendor/motorola/griffin/proprietary/vendor/lib/libwifi-hal-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal-qcom.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwms.so \
-    vendor/motorola/griffin/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwqe.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libwvdrm_L3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvdrm_L3.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtadapter.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtwifi_ulp_adaptor.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libzxingcpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzxingcpp.so \
-    vendor/motorola/griffin/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/motorola/griffin/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/griffin/proprietary/vendor/lib/mmi_audio.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_audio.so \
     vendor/motorola/griffin/proprietary/vendor/lib/mmi_battery.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_battery.so \
@@ -917,7 +906,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-disp-apis.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
-    vendor/motorola/griffin/proprietary/vendor/lib64/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-omxcore.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libmmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmi.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libmodalityservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmodalityservice_jni.so \
@@ -981,22 +969,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsubsystem_control.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalioctl.so \
-    vendor/motorola/griffin/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
-    vendor/motorola/griffin/proprietary/vendor/lib64/libtinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrueportrait.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libubifocus.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libulp2.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphvx.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpplibrary.so \
-    vendor/motorola/griffin/proprietary/vendor/lib64/libwifi-hal-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-qcom.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so \
-    vendor/motorola/griffin/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwqe.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/motorola/griffin/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/mmi_audio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mmi_audio.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/mmi_battery.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mmi_battery.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/mmi_bluetooth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mmi_bluetooth.so \
