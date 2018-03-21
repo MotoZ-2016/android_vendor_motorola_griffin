@@ -115,7 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/motorola/griffin/proprietary/lib/libSampleAuthJNI.so:system/lib/libSampleAuthJNI.so \
     vendor/motorola/griffin/proprietary/lib/libSampleExtAuthJNI.so:system/lib/libSampleExtAuthJNI.so \
-    vendor/motorola/griffin/proprietary/lib/libYuvSkia.so:system/lib/libYuvSkia.so \
     vendor/motorola/griffin/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/griffin/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
     vendor/motorola/griffin/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
@@ -154,6 +153,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsd_sdk_display.so \
     vendor/motorola/griffin/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
     vendor/motorola/griffin/proprietary/lib/libtpa.so:system/lib/libtpa.so \
+    vendor/motorola/griffin/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/motorola/griffin/proprietary/lib/libvendorconn.so:system/lib/libvendorconn.so \
     vendor/motorola/griffin/proprietary/lib/libwbc_jni.so:system/lib/libwbc_jni.so \
     vendor/motorola/griffin/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
@@ -208,6 +208,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsd_sdk_display.so \
     vendor/motorola/griffin/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/motorola/griffin/proprietary/lib64/libtpa.so:system/lib64/libtpa.so \
+    vendor/motorola/griffin/proprietary/lib64/libtrueportrait.so:system/lib64/libtrueportrait.so \
     vendor/motorola/griffin/proprietary/lib64/libvendorconn.so:system/lib64/libvendorconn.so \
     vendor/motorola/griffin/proprietary/lib64/libwbc_jni.so:system/lib64/libwbc_jni.so \
     vendor/motorola/griffin/proprietary/lib64/libwfdavenhancements.so:system/lib64/libwfdavenhancements.so \
@@ -281,7 +282,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile1.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile2.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile3.xml \
+    vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile4.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile5.xml \
+    vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile6.xml \
+    vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile7.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile7.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile1.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile2.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile3.xml \
@@ -711,7 +715,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsubsystem_control.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsystem_health_mon.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
-    vendor/motorola/griffin/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libulp2.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libunshorten.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunshorten.so \
@@ -970,7 +973,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalioctl.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
-    vendor/motorola/griffin/proprietary/vendor/lib64/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrueportrait.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libubifocus.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libulp2.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphvx.so \
